@@ -34,6 +34,5 @@ object MonoidDemo {
     assert(6 == combineAll(List(1, 2, 3)), "hello world")
 
 
-
   }
 }
