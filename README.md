@@ -1,4 +1,4 @@
 learn-typelevel
 ===
 
->learning notes for `shapeless` and `cats`
+>learning notes for `shapeless` ,`cats`, `simulacrum` and `scalaz`
