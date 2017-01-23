@@ -5,9 +5,7 @@ package com.chaos.functional.exercise
   */
 object Compose extends App {
   def compose[A, B, C] (f: B => C, g: A => B): A => C = {
-    (a: A) => {
-      f(g(a))
-    }
+    (a: A) => f(g(a))
   }
 
   def int1(a: Int): Int = 1
