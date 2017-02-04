@@ -43,5 +43,9 @@ object Demo1 {
     val strings = List("hello" :: "world" :: 1 :: HNil, "hello1" :: "world1" :: 1 :: HNil)
 
     println(CsvEncoder.writeCsv(strings))
+
+    import com.chaos.dmacro.M
+
+    M.printf("", "")
   }
 }
